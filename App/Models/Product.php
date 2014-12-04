@@ -16,6 +16,26 @@ use App\Framework\Model;
 
 class Product extends Model {
 
+    public function getName() {
+        return $this->get('name');
+    }
+
+    public function getPrice() {
+        return $this->get('price');
+    }
+
+    public function getQuantity() {
+        return $this->get('quantity');
+    }
+
+    public function getThumbsUp() {
+        return $this->get('thumbs_up');
+    }
+
+    public function getThumbsDown() {
+        return $this->get('thumbs_down');
+    }
+
     public function getRequests(){
         return $this->manyToMany('Request','brigademt_Product_Request','product_id');
     }
