@@ -7,6 +7,6 @@ return [
 			'host' =>		'localhost',
 			'username' =>	'root',
 			'password' =>	'root',
-			'dbname' =>		'testProjet',
+			'dbname' =>		'uflf_database',
 		]
 ];
