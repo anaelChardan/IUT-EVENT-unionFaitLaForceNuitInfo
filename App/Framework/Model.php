@@ -17,7 +17,7 @@ class Model {
 		$this->db = $app->db;
 		if ($this->table === NULL) {
 			$refl = new \ReflectionClass(get_class($this));
-			$this->table = strtolower($refl->getShortName()).'s';
+			$this->table = $app->getConfig('database', 'prefix').strtolower($refl->getShortName()).'s';
 		}
 	}
 

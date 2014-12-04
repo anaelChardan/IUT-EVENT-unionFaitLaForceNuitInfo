@@ -8,5 +8,6 @@ return [
 			'username' =>	'root',
 			'password' =>	'root',
 			'dbname' =>		'uflf_database',
+			'prefix' =>		'brigademt_',
 		]
 ];
