@@ -16,6 +16,17 @@ use App\Framework\Model;
 
 class Request extends Model {
 
+    public function __construct() {
+
+    }
+
+    public function getCreationDate() {
+        return $this->get('creation_date');
+    }
+
+    public function getReceptionDate() {
+        return $this->get('reception_date');
+    }
     public function getProducts() {
         return $this->manyToMany('Product','brigademt_Product_Request','request_id');
     }
