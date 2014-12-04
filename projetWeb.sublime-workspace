@@ -1,0 +1,1976 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"strt",
+				"strtolower"
+			],
+			[
+				"default",
+				"default_action"
+			],
+			[
+				"getContr",
+				"getControllerName"
+			],
+			[
+				"getCOn",
+				"getConfig"
+			],
+			[
+				"Contr",
+				"ControllerNotFoundException"
+			],
+			[
+				"Cotnr",
+				"ControllerNotFoundException"
+			],
+			[
+				"getControll",
+				"getControllerName"
+			],
+			[
+				"func",
+				"function"
+			],
+			[
+				"adre",
+				"adresse2"
+			],
+			[
+				"vente",
+				"ventes_equipe"
+			],
+			[
+				"class",
+				"classification"
+			],
+			[
+				"recru",
+				"recrutements"
+			],
+			[
+				"rec",
+				"recrutements"
+			],
+			[
+				"getD",
+				"getDaysUntilEnd"
+			],
+			[
+				"success",
+				"successParam"
+			],
+			[
+				"succe",
+				"successType"
+			],
+			[
+				"amb",
+				"ambassadeurs"
+			],
+			[
+				"array_key",
+				"array_key_exists"
+			],
+			[
+				"mont",
+				"montant"
+			],
+			[
+				"array_ke",
+				"array_key_exists"
+			],
+			[
+				"last",
+				"lastDay"
+			],
+			[
+				"getEvents",
+				"getEventsOnPeriod"
+			],
+			[
+				"getEvent",
+				"getEventsOfMonth"
+			],
+			[
+				"event",
+				"eventName"
+			],
+			[
+				"char",
+				"charge_token"
+			],
+			[
+				"ambass",
+				"ambassadeur"
+			],
+			[
+				"vire",
+				"virementProcess"
+			],
+			[
+				"numero",
+				"numeroCompte"
+			],
+			[
+				"unread",
+				"unreadCounter"
+			],
+			[
+				"need",
+				"needToRepay"
+			],
+			[
+				"Stri",
+				"Stripe_Customer"
+			],
+			[
+				"ambassa",
+				"ambassadeurTour"
+			],
+			[
+				"Refus",
+				"RefusContratRequest"
+			],
+			[
+				"refuse",
+				"refusContratProcess"
+			],
+			[
+				"text",
+				"textarea	Tag"
+			],
+			[
+				"getEqui",
+				"getNbEquipiersAmbassadeurs"
+			],
+			[
+				"margin-",
+				"margin-top"
+			],
+			[
+				"am",
+				"ambassadeur"
+			],
+			[
+				"amba",
+				"ambassadeur"
+			],
+			[
+				"actua",
+				"actualPassword"
+			],
+			[
+				"change",
+				"changePassword"
+			],
+			[
+				"newPasswor",
+				"newPasswordConfirm"
+			],
+			[
+				"Change",
+				"ChangePasswordRequest"
+			],
+			[
+				"getComi",
+				"getComissionEquipe"
+			],
+			[
+				"getRang",
+				"getRangProgressionColor"
+			],
+			[
+				"parent",
+				"parent_user"
+			],
+			[
+				"pare",
+				"parent_user"
+			],
+			[
+				"sma",
+				"small-caps"
+			],
+			[
+				"fon",
+				"font-style"
+			],
+			[
+				"deve",
+				"devenirAmbStep1"
+			],
+			[
+				"lieu",
+				"lieuSignature"
+			],
+			[
+				"border-r",
+				"border-radius"
+			],
+			[
+				"styles",
+				"stylesheets"
+			],
+			[
+				"Devenr",
+				"devenirAmbStep1"
+			],
+			[
+				"devenir",
+				"devenirAmbStep1Process"
+			],
+			[
+				"avat",
+				"avatar"
+			],
+			[
+				"ext",
+				"extensions"
+			],
+			[
+				"has",
+				"hasher"
+			],
+			[
+				"user",
+				"username"
+			],
+			[
+				"parrain",
+				"parrain_id"
+			],
+			[
+				"new",
+				"new_rang_id"
+			],
+			[
+				"unis",
+				"unsigned"
+			],
+			[
+				"parra",
+				"parrain_id"
+			],
+			[
+				"Bou",
+				"BoughtProduct"
+			],
+			[
+				"getTotal",
+				"getTotalMontant"
+			],
+			[
+				"com",
+				"commission"
+			],
+			[
+				"Comiss",
+				"Commission"
+			],
+			[
+				"var",
+				"var_dump"
+			],
+			[
+				"function",
+				"function_exists"
+			],
+			[
+				"this",
+				"thismonth"
+			],
+			[
+				"str_re",
+				"str_replace"
+			],
+			[
+				"scrip",
+				"scriptlocation"
+			],
+			[
+				"scri",
+				"scriptlocation"
+			],
+			[
+				"montant",
+				"montant_caution"
+			],
+			[
+				"total_",
+				"total_facture"
+			],
+			[
+				"remove",
+				"remove"
+			],
+			[
+				"etat_",
+				"etat_distribution"
+			],
+			[
+				"stock",
+				"stock_virtuel"
+			],
+			[
+				"total",
+				"total_facture"
+			],
+			[
+				"factu",
+				"factures_tbody"
+			],
+			[
+				"livres_ge",
+				"livres_getInfos"
+			],
+			[
+				"non",
+				"non_rendu"
+			],
+			[
+				"tot",
+				"total_livres"
+			],
+			[
+				"stoc",
+				"stock_commande"
+			],
+			[
+				"number",
+				"number_format"
+			],
+			[
+				"getStock",
+				"getStockNonDistrbueAttribute"
+			],
+			[
+				"getStoc",
+				"getStockCommandeAttribute"
+			],
+			[
+				"livre_",
+				"livres_non_distrib"
+			],
+			[
+				"livres",
+				"livres_non_distrib"
+			],
+			[
+				"livre",
+				"livres_non_distrib"
+			],
+			[
+				"etat",
+				"etat_distribution_id"
+			],
+			[
+				"etats",
+				"etats_dis"
+			],
+			[
+				"Rec",
+				"Redirect"
+			],
+			[
+				"numbr",
+				"number_format"
+			],
+			[
+				"envir",
+				"environment"
+			],
+			[
+				"monta",
+				"montant_especes"
+			],
+			[
+				"erro",
+				"errorCode"
+			],
+			[
+				"Find",
+				"findByNumDos"
+			],
+			[
+				"inscr",
+				"inscription_step4Post"
+			],
+			[
+				"debut_",
+				"debut_end_week"
+			],
+			[
+				"acom",
+				"acompte_minimal"
+			],
+			[
+				"ver",
+				"versement"
+			],
+			[
+				"vers",
+				"versement"
+			],
+			[
+				"totla",
+				"totalDu"
+			],
+			[
+				"montant_livre",
+				"montant_livresfactures"
+			],
+			[
+				"montant_",
+				"montant_adhesion"
+			],
+			[
+				"inscrip",
+				"inscription_step2"
+			],
+			[
+				"crea",
+				"createNew"
+			],
+			[
+				"inscri",
+				"inscription_step1_famille"
+			],
+			[
+				"insci",
+				"inscription_step1"
+			],
+			[
+				"inscription",
+				"inscription_step1"
+			],
+			[
+				"Formu",
+				"FormulairesController"
+			],
+			[
+				"getDate",
+				"getDateLivraison"
+			],
+			[
+				"liv",
+				"livraison"
+			],
+			[
+				"get",
+				"getDateLivraisonPublique"
+			],
+			[
+				"end",
+				"endforeach"
+			],
+			[
+				"livs",
+				"livraisons"
+			],
+			[
+				"livr",
+				"livraison"
+			],
+			[
+				"date_c",
+				"date_commande"
+			],
+			[
+				"borde",
+				"bordereaux"
+			],
+			[
+				"fam",
+				"familles"
+			],
+			[
+				"sear",
+				"searchterm"
+			],
+			[
+				"etablis",
+				"etablissement_id"
+			],
+			[
+				"etab",
+				"etablissement_id"
+			],
+			[
+				"etal",
+				"etablissement_id"
+			],
+			[
+				"dossiers_",
+				"dossiers_add"
+			],
+			[
+				"_",
+				"_blank"
+			],
+			[
+				"debut",
+				"debut_end_week"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.php",
+			"settings":
+			{
+				"buffer_size": 269,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/Controller.php",
+			"settings":
+			{
+				"buffer_size": 62,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "bootstrap/autoload.php",
+			"settings":
+			{
+				"buffer_size": 528,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "<?php \n\nnamespace App;\n\nclass Application {\n\n	private $config = [];\n\n	public function __construct() {\n		$this->config = require \"config.php\";\n		$this->forceRequestParameters();\n	}\n\n	public function forceRequestParameters() {\n		if (!array_key_exists(CONTROLLER_ACCESSOR, $_GET)) {\n			header('Location: index.php?'.CONTROLLER_ACCESSOR.'='.$this->getConfig('default_controller'));\n		}\n		if (!array_key_exists(ACTION_ACCESSOR, $_GET)) {\n			header('Location: index.php?'.CONTROLLER_ACCESSOR.'='.$this->getControllerName().'&'.ACTION_ACCESSOR.'='.$this->getConfig('default_action'));\n		}\n	}\n\n	public function getConfig($name) {\n		return $this->config[$name];\n	}\n\n	public function getControllerName() {\n		return (array_key_exists(CONTROLLER_ACCESSOR, $_GET)) ? $_GET[CONTROLLER_ACCESSOR] : $this->app->getConfig('default_controller');\n	}\n\n	public function getActionName() {\n		return (array_key_exists(ACTION_ACCESSOR, $_GET)) ? $_GET[ACTION_ACCESSOR] : $this->app->getConfig('default_action');\n	}\n\n	public function generateRequest() {\n		$req = new Request($this);\n		return $req;\n	}\n\n	public function render() {\n		return $this->generateRequest()->getResponse();\n	}\n\n}",
+			"file": "App/Application.php",
+			"file_size": 1159,
+			"file_write_time": 130614157940000000,
+			"settings":
+			{
+				"buffer_size": 1159,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/Input.php",
+			"settings":
+			{
+				"buffer_size": 241,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "App/Request.php",
+			"settings":
+			{
+				"buffer_size": 858,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/controllers/HomeController.php",
+			"settings":
+			{
+				"buffer_size": 136,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/Exceptions/ControllerNotFoundException.php",
+			"settings":
+			{
+				"buffer_size": 293,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "App/config.php",
+			"settings":
+			{
+				"buffer_size": 82,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/Python/Python.sublime-build",
+	"command_palette":
+	{
+		"height": 33.0,
+		"selected_items":
+		[
+			[
+				"folder ",
+				"Project: Add Folder"
+			],
+			[
+				"dupli",
+				"File: Duplicate"
+			],
+			[
+				"dup",
+				"File: Duplicate"
+			],
+			[
+				"dele",
+				"File: Delete"
+			],
+			[
+				"new file",
+				"File: New File Relative to Current View"
+			],
+			[
+				"du",
+				"File: Duplicate"
+			],
+			[
+				"new f",
+				"File: New File Relative to Project Root"
+			],
+			[
+				"ss blade",
+				"Set Syntax: PHP - Laravel Blade"
+			],
+			[
+				"ren",
+				"File: Rename"
+			],
+			[
+				"dupl",
+				"File: Duplicate"
+			],
+			[
+				"delete",
+				"File: Delete"
+			],
+			[
+				"rein",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"wrap",
+				"HTML: Wrap Selection With Tag"
+			],
+			[
+				"reind",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"rei",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"new file root",
+				"File: New File Relative to Project Root"
+			],
+			[
+				"duplica",
+				"File: Duplicate"
+			],
+			[
+				"rena",
+				"File: Rename"
+			],
+			[
+				"new file view",
+				"File: New File Relative to Current View"
+			],
+			[
+				"rename",
+				"File: Rename"
+			],
+			[
+				"NEW FILE VIEW",
+				"File: New File Relative to Current View"
+			],
+			[
+				"new view",
+				"File: New View into File"
+			],
+			[
+				"copy",
+				"File: Copy Path"
+			],
+			[
+				"new root",
+				"File: New File Relative to Project Root"
+			],
+			[
+				"renale",
+				"Package Control: Enable Package"
+			],
+			[
+				"base",
+				"Bookmarks: Select All"
+			],
+			[
+				"duplic",
+				"File: Duplicate"
+			],
+			[
+				"user",
+				"Preferences: Settings - User"
+			],
+			[
+				"inst pkg",
+				"Package Control: Install Package"
+			],
+			[
+				"install pack",
+				"Package Control: Install Package"
+			],
+			[
+				"color",
+				"Color Picker"
+			],
+			[
+				"install pa",
+				"Package Control: Install Package"
+			],
+			[
+				"laravel routes",
+				"Laravel Artisan: Routes"
+			],
+			[
+				"install pac",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 593.0
+	},
+	"console":
+	{
+		"height": 146.0,
+		"history":
+		[
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/martylamoureux/Sites/projetWeb",
+		"/Users/martylamoureux/Sites/projetWeb/app",
+		"/Users/martylamoureux/Sites/projetWeb/bootstrap",
+		"/Users/martylamoureux/Sites/projetWeb/src",
+		"/Users/martylamoureux/Sites/projetWeb/src/controllers"
+	],
+	"file_history":
+	[
+		"/Users/martylamoureux/Sites/administratif-ffm/app/Http/Filters/AdminFilter.php",
+		"/Users/martylamoureux/Sites/administratif-ffm/config/app.php",
+		"/Users/martylamoureux/Sites/administratif-ffm/app/Http/routes.php",
+		"/Users/martylamoureux/Sites/administratif-ffm/public/index.php",
+		"/Users/martylamoureux/Sites/administratif-ffm/vendor/phpunit/phpunit/src/Framework/Constraint/IsNull.php",
+		"/Users/martylamoureux/Sites/administratif-ffm/_ide_helper.php",
+		"/Users/martylamoureux/Sites/administratif-ffm/.idea/scopes/scope_settings.xml",
+		"/Users/martylamoureux/Sites/administratif-ffm/vendor/symfony/console/Symfony/Component/Console/Tests/Helper/HelperSetTest.php",
+		"/Users/martylamoureux/Sites/administratif-ffm/vendor/nesbot/carbon/tests/StartEndOfTest.php",
+		"/Users/martylamoureux/Sites/administratif-ffm/vendor/predis/predis/src/Command/ServerEval.php",
+		"/Users/martylamoureux/Sites/administratif-ffm/vendor/symfony/finder/Symfony/Component/Finder/Exception/AccessDeniedException.php",
+		"/Users/martylamoureux/Sites/administratif-ffm/vendor/nesbot/carbon/tests/AddTest.php",
+		"/Users/martylamoureux/Sites/administratif-ffm/vendor/phpunit/phpunit/src/Util/TestDox/NamePrettifier.php",
+		"/Users/martylamoureux/Sites/administratif-ffm/app/Providers/ErrorServiceProvider.php",
+		"/Users/martylamoureux/Sites/administratif-ffm/Envoy.blade.php",
+		"/Users/martylamoureux/Sites/administratif-ffm/vendor/predis/predis/bin/create-pear",
+		"/Users/martylamoureux/Sites/administratif-ffm/vendor/symfony/routing/Symfony/Component/Routing/CompiledRoute.php",
+		"/Users/martylamoureux/Sites/administratif-ffm/composer.json",
+		"/Users/martylamoureux/Sites/administratif-ffm/vendor/composer/autoload_real.php",
+		"/Users/martylamoureux/Sites/administratif-ffm/artisan",
+		"/Users/martylamoureux/Sites/administratif-ffm/database/seeds/UserTableSeeder.php",
+		"/Users/martylamoureux/Sites/administratif-ffm/app/User.php",
+		"/Users/martylamoureux/Sites/administratif-ffm/vendor/laravel/framework/src/Illuminate/Routing/Controller.php",
+		"/Users/martylamoureux/Sites/administratif-ffm/vendor/doctrine/instantiator/CONTRIBUTING.md",
+		"/Users/martylamoureux/Sites/administratif-ffm/vendor/phpunit/php-file-iterator/build/PHPCS/Sniffs/ControlStructures/ControlSignatureSniff.php",
+		"/Users/martylamoureux/Sites/administratif-ffm/vendor/predis/predis/src/Configuration/ClusterOption.php",
+		"/Users/martylamoureux/Sites/administratif-ffm/vendor/nesbot/carbon/tests/SubTest.php",
+		"/Users/martylamoureux/Sites/administratif-ffm/public/css/style.css",
+		"/Users/martylamoureux/Sites/administratif-ffm/vendor/phpunit/phpunit/src/Framework/SyntheticError.php",
+		"/Users/martylamoureux/Sites/administratif-ffm/vendor/monolog/monolog/src/Monolog/Handler/SyslogUdpHandler.php",
+		"/Users/martylamoureux/Sites/administratif-ffm/app/Http/Filters/BasicAuthFilter.php",
+		"/Users/martylamoureux/Sites/administratif-ffm/storage/views/b97b8ed22185d281ccd8824e3be46b86",
+		"/Users/martylamoureux/Sites/privilegescity/vendor/nesbot/carbon/tests/SubTest.php",
+		"/Users/martylamoureux/Sites/privilegescity/tests/TestCase.php",
+		"/Users/martylamoureux/Sites/privilegescity/vendor/patchwork/utf8/class/Patchwork/Utf8/data/translit_extra.ser",
+		"/Users/martylamoureux/Sites/privilegescity/vendor/swiftmailer/swiftmailer/tests/acceptance/Swift/DependencyContainerAcceptanceTest.php",
+		"/Users/martylamoureux/Sites/privilegescity/vendor/swiftmailer/swiftmailer/tests/acceptance.conf.php.default",
+		"/Users/martylamoureux/Sites/privilegescity/vendor/laravel/framework/src/Illuminate/Auth/Console/AuthControllerCommand.php",
+		"/Users/martylamoureux/Sites/privilegescity/vendor/laravel/framework/src/Illuminate/Mail/MailServiceProvider.php",
+		"/Users/martylamoureux/Sites/privilegescity/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/SimpleMailInvoker.php",
+		"/Users/martylamoureux/Sites/privilegescity/vendor/monolog/monolog/src/Monolog/Handler/NativeMailerHandler.php",
+		"/Users/martylamoureux/Sites/privilegescity/vendor/swiftmailer/swiftmailer/tests/acceptance/Swift/EmbeddedFileAcceptanceTest.php",
+		"/Users/martylamoureux/Sites/privilegescity/vendor/phpunit/phpunit/src/Framework/Constraint/ExceptionMessage.php",
+		"/Users/martylamoureux/Sites/privilegescity/app/Http/Controllers/EspaceAmbassadeurController.php",
+		"/Users/martylamoureux/Sites/privilegescity/vendor/phpunit/phpunit-mock-objects/CONTRIBUTING.md",
+		"/Users/martylamoureux/Sites/privilegescity/vendor/phpunit/phpunit-mock-objects/tests/MockObject/invocation_object_clone_object.phpt",
+		"/Users/martylamoureux/Sites/privilegescity/public/css/prettyPhoto.css",
+		"/Users/martylamoureux/Sites/privilegescity/public/assets/style/theme/page-header.less",
+		"/Users/martylamoureux/Sites/privilegescity/phpunit.xml",
+		"/Users/martylamoureux/Sites/privilegescity/vendor/phpunit/phpunit-mock-objects/tests/MockObject/Matcher/ConsecutiveParametersTest.php",
+		"/Users/martylamoureux/Sites/privilegescity/vendor/predis/predis/src/Connection/PhpiredisSocketConnection.php",
+		"/Users/martylamoureux/Sites/privilegescity/vendor/monolog/monolog/src/Monolog/Formatter/WildfireFormatter.php",
+		"/Users/martylamoureux/Sites/privilegescity/vendor/symfony/finder/Symfony/Component/Finder/Iterator/DateRangeFilterIterator.php",
+		"/Users/martylamoureux/Sites/privilegescity/vendor/symfony/dom-crawler/Symfony/Component/DomCrawler/FormFieldRegistry.php",
+		"/Users/martylamoureux/Sites/privilegescity/vendor/filp/whoops/src/Whoops/Resources/views/frame_code.html.php",
+		"/Users/martylamoureux/Sites/privilegescity/vendor/phpunit/phpunit-mock-objects/tests/_fixture/Foo.php",
+		"/Users/martylamoureux/Sites/privilegescity/vendor/filp/whoops/docs/Open Files In An Editor.md",
+		"/Users/martylamoureux/Sites/privilegescity/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/BaseCommand.php",
+		"/Users/martylamoureux/Sites/privilegescity/vendor/phpunit/phpunit-mock-objects/tests/MockObject/class_implementing_interface_dont_call_parent_constructor.phpt",
+		"/Users/martylamoureux/Sites/privilegescity/app/Http/Controllers/MembreController.php",
+		"/Users/martylamoureux/Sites/privilegescity/public/admin/js/plugin/ckeditor/lang/mn.js",
+		"/Users/martylamoureux/Sites/privilegescity/vendor/phpunit/phpunit/src/Framework/Constraint/IsNull.php",
+		"/Users/martylamoureux/Sites/privilegescity/vendor/sebastian/global-state/src/RuntimeException.php",
+		"/Users/martylamoureux/Sites/privilegescity/vendor/stripe/stripe-php/lib/Stripe/InvalidRequestError.php",
+		"/Users/martylamoureux/Sites/privilegescity/vendor/phpunit/phpunit-mock-objects/src/Framework/MockObject/Builder/Identity.php",
+		"/Users/martylamoureux/Sites/Homestead/Homestead.yaml",
+		"/Users/martylamoureux/Sites/Homestead/J",
+		"/Users/martylamoureux/Sites/privilegescity/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/ExpressionRequestMatcher.php",
+		"/Users/martylamoureux/Sites/privilegescity/vendor/laravel/framework/src/Illuminate/Queue/RedisQueue.php",
+		"/Users/martylamoureux/Sites/privilegescity/vendor/phpunit/phpunit-mock-objects/tests/MockObject/class_implementing_interface_call_parent_constructor.phpt",
+		"/Users/martylamoureux/Sites/privilegescity/resources/views/admin/contests/classification.blade.php",
+		"/Users/martylamoureux/Sites/privilegescity/vendor/laravel/framework/src/Illuminate/Filesystem/ClassFinder.php",
+		"/Users/martylamoureux/Sites/privilegescity/vendor/phpunit/php-token-stream/Tests/_files/classInNamespace.php",
+		"/Users/martylamoureux/Sites/privilegescity/vendor/phpunit/phpunit/tests/TextUI/concrete-test-class.phpt",
+		"/Users/martylamoureux/Sites/privilegescity/vendor/phpunit/php-file-iterator/build/PHPCS/Sniffs/ControlStructures/ControlSignatureSniff.php",
+		"/Users/martylamoureux/Sites/privilegescity/vendor/phpunit/phpunit/tests/_files/RequirementsClassBeforeClassHookTest.php",
+		"/Users/martylamoureux/Sites/privilegescity/public/class-phpass.php",
+		"/Users/martylamoureux/Sites/privilegescity/vendor/composer/ClassLoader.php",
+		"/Users/martylamoureux/Sites/privilegescity/public/admin/js/plugin/markdown/bootstrap-markdown.min.js",
+		"/Users/martylamoureux/Sites/privilegescity/public/admin/js/plugin/dropzone/dropzone-amd-module.min.js",
+		"/Users/martylamoureux/Sites/privilegescity/vendor/symfony/security-core/Symfony/Component/Security/Core/Authorization/AccessDecisionManager.php",
+		"/Users/martylamoureux/Sites/privilegescity/vendor/symfony/debug/Symfony/Component/Debug/Exception/ClassNotFoundException.php",
+		"/Users/martylamoureux/Sites/privilegescity/vendor/phpunit/phpunit/tests/_files/ExceptionInTearDownTest.php",
+		"/Users/martylamoureux/Sites/privilegescity/vendor/predis/predis/src/Connection/ConnectionInterface.php",
+		"/Users/martylamoureux/Sites/privilegescity/resources/views/contrat.blade.php",
+		"/Users/martylamoureux/Sites/privilegescity/vendor/nikic/php-parser/lib/PhpParser/Node/Const_.php",
+		"/Users/martylamoureux/Sites/privilegescity/vendor/phpunit/php-code-coverage/tests/_files/NotExistingCoveredElementTest.php",
+		"/Users/martylamoureux/Sites/privilegescity/vendor/phpunit/phpunit/src/Framework/Constraint/TraversableContainsOnly.php",
+		"/Users/martylamoureux/Sites/privilegescity/vendor/laravel/framework/src/Illuminate/Contracts/Validation/ValidationException.php",
+		"/Users/martylamoureux/Sites/privilegescity/vendor/symfony/translation/Symfony/Component/Translation/Exception/NotFoundResourceException.php",
+		"/Users/martylamoureux/Sites/smartadmin/DEVELOPER/HTML_version/form-elements.html",
+		"/Users/martylamoureux/Sites/privilegescity/vendor/nesbot/carbon/tests/ConstructTest.php",
+		"/Users/martylamoureux/Sites/privilegescity/vendor/nesbot/carbon/tests/TestFixture.php",
+		"/Users/martylamoureux/Sites/privilegescity/public/assets/style/bootstrap.css",
+		"/Users/martylamoureux/Sites/privilegescity/vendor/nikic/php-parser/test/code/parser/expr/constant_expr.test",
+		"/Users/martylamoureux/Sites/privilegescity/vendor/nikic/php-parser/test/code/parser/stmt/namespace/nested.test-fail",
+		"/Users/martylamoureux/Sites/privilegescity/resources/views/admin/base.blade.php",
+		"/Users/martylamoureux/Sites/privilegescity/database/migrations/2014_11_02_165410_add_cagnotte_to_virement.php",
+		"/Users/martylamoureux/Sites/privilegescity/resources/views/emails/auth/reminder.blade.php",
+		"/Users/martylamoureux/Sites/privilegescity/vendor/laravel/framework/src/Illuminate/Contracts/Auth/Remindable.php",
+		"/Users/martylamoureux/Sites/privilegescity/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/DependencyInjection/AddClassesToCachePass.php",
+		"/Users/martylamoureux/Sites/privilegescity/resources/views/membre/index.blade.php",
+		"/Users/martylamoureux/Sites/privilegescity/vendor/symfony/console/Symfony/Component/Console/Tester/CommandTester.php",
+		"/Users/martylamoureux/Sites/privilegescity/vendor/phpunit/phpunit/tests/_files/ThrowExceptionTestCase.php",
+		"/Users/martylamoureux/Sites/privilegescity/vendor/league/flysystem/src/CacheInterface.php",
+		"/Users/martylamoureux/Sites/privilegescity/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/IoBuffer.php",
+		"/Users/martylamoureux/Sites/privilegescity/vendor/symfony/console/Symfony/Component/Console/Formatter/OutputFormatterStyle.php",
+		"/Users/martylamoureux/Sites/privilegescity/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/DependencyInjection/MergeExtensionConfigurationPass.php",
+		"/Users/martylamoureux/Sites/privilegescity/vendor/phpunit/phpunit/src/Framework/Constraint/Count.php",
+		"/Users/martylamoureux/Sites/privilegescity/vendor/laravel/framework/src/Illuminate/Queue/Connectors/IronConnector.php",
+		"/Users/martylamoureux/Sites/privilegescity/vendor/phpunit/phpunit/tests/_files/ConcreteTest.php",
+		"/Users/martylamoureux/Sites/privilegescity/public/admin/js/plugin/ckeditor/lang/id.js",
+		"/Users/martylamoureux/Sites/privilegescity/resources/views/emails/equipierAmbassadeur.blade.php",
+		"/Users/martylamoureux/Sites/sshbxp.sh",
+		"/Users/martylamoureux/Sites/privilegescity/public/admin/js/plugin/morris/morris-chart-settings.min.js",
+		"/Users/martylamoureux/Sites/privilegescity/vendor/nikic/php-parser/test/PhpParser/Node/Scalar/MagicConstTest.php",
+		"/Users/martylamoureux/Sites/privilegescity/vendor/laravel/framework/src/Illuminate/Container/Container.php",
+		"/Users/martylamoureux/Sites/privilegescity/vendor/predis/predis/src/Configuration/ClusterOption.php",
+		"/Users/martylamoureux/Sites/privilegescity/server.php",
+		"/Users/martylamoureux/Sites/privilegescity/vendor/predis/predis/src/Response/Status.php",
+		"/Users/martylamoureux/Sites/privilegescity/vendor/phpunit/phpunit/src/Runner/StandardTestSuiteLoader.php",
+		"/Users/martylamoureux/Sites/privilegescity/vendor/stripe/stripe-php/lib/Stripe/Coupon.php",
+		"/Users/martylamoureux/Sites/privilegescity/vendor/symfony/security-core/Symfony/Component/Security/Core/Tests/Authorization/AccessDecisionManagerTest.php",
+		"/Users/martylamoureux/Sites/privilegescity/vendor/laravel/framework/src/Illuminate/Database/MigrationServiceProvider.php",
+		"/Users/martylamoureux/Sites/privilegescity/vendor/predis/predis/bin/create-pear",
+		"/Users/martylamoureux/Sites/privilegescity/vendor/predis/predis/bin/create-command-test",
+		"/Users/martylamoureux/Sites/privilegescity/vendor/nesbot/carbon/tests/CreateTest.php",
+		"/Users/martylamoureux/Sites/privilegescity/vendor/laravel/framework/src/Illuminate/Config/EnvironmentVariables.php"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/Users/martylamoureux/Sites/privilegescity",
+			"/Users/martylamoureux/Sites/privilegesCity",
+			"/Users/martylamoureux/Sites/peep/app/views/formulaires/recuperation",
+			"/Users/martylamoureux/Sites/peep/",
+			"/Users/martylamoureux/Sites/ligue/",
+			"/Users/martylamoureux/Sites/ligue/src/",
+			"/Users/martylamoureux/Sites/ligue/",
+			"/Users/martylamoureux/Sites/ligue/src",
+			"/Users/martylamoureux/Sites/ligue/vendor",
+			"/Users/martylamoureux/Sites/ligue/",
+			"/Users/martylamoureux/Sites/ligue/src/",
+			"/Users/martylamoureux/Sites/ligue/",
+			"/Users/martylamoureux/Sites/ligue/src/",
+			"/Users/martylamoureux/Sites/ligue/",
+			"/Users/martylamoureux/Sites/ligue/vendor/",
+			"/Users/martylamoureux/Sites/ligue/",
+			"/Users/martylamoureux/Sites/ligue/src/",
+			"/Users/martylamoureux/Sites/ligue/src/Ligue/CalendrierBundle/",
+			"/Users/martylamoureux/Sites/ligue/",
+			"/Users/martylamoureux/Sites/ligue/s",
+			"/Users/martylamoureux/Sites/ligue/src/",
+			"/Users/martylamoureux/Sites/ligue/",
+			"/Users/martylamoureux/Sites/engage-sports/templates",
+			"/Users/martylamoureux/Sites/engage-sports/apps"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"CONTROLLER_ACCESSOR",
+			"getControllerName",
+			"'controller'",
+			"autoload",
+			"data-toggle",
+			"<i class=",
+			"</i>",
+			"</a>",
+			"ventes_equipe",
+			"news",
+			"items",
+			"Actualités",
+			"celui a",
+			"lead",
+			"Ventes",
+			"$contest->getClassification()",
+			"classeme",
+			"class",
+			"+",
+			"circle",
+			"BXPoints",
+			"5",
+			"description",
+			"itemName",
+			"user->id",
+			"user",
+			"endDate",
+			";\n",
+			"'));\n",
+			"carte",
+			"fixedEnd",
+			"user",
+			"classification",
+			"h1",
+			"h6",
+			"badge",
+			"dépassé",
+			"concours a dépassé",
+			"le nombre de cartes vendues durant la période du concours a dépassé",
+			"description",
+			"le nombre limite de",
+			"défini",
+			"<br/>Si personne n'a atteint cette limite à la fin du concours, il est prolongé jusqu'à ce qu'une personne gagne.",
+			"h3",
+			" ",
+			"contests",
+			"delete",
+			"célibataire",
+			"duration",
+			" H:i:s",
+			"text",
+			"lot",
+			"beginDate",
+			"title",
+			"lot",
+			"datepicker",
+			"title",
+			"'\n				",
+			"admin.news",
+			"vente",
+			"1",
+			"2",
+			"0",
+			"begin",
+			"fixedEnd' => true",
+			"haveParam",
+			"$news",
+			"items",
+			"Actualités",
+			"nbCommandes",
+			"NewsReque",
+			"NewsReq",
+			"Actualité",
+			"L'actualité",
+			"Type",
+			"lot",
+			"content",
+			"Route::",
+			"NewsController",
+			"news",
+			"admin.news",
+			"$news",
+			"News::",
+			"admins@",
+			"thomas@",
+			"Mois",
+			"OnMonth",
+			"Mois",
+			"classement",
+			"$classement",
+			"thomas@bordeauxprivileges",
+			"thomas@bordeauxprivileges.com",
+			"Ventes",
+			" ",
+			"h4",
+			"recrutementsParJour",
+			"code",
+			"pointSize",
+			"ventes",
+			"$ventes",
+			"ventes",
+			"recrutements",
+			"cartesVenduesAmb",
+			"cartesVendues",
+			"counter",
+			"count",
+			"$",
+			"cartesVendues",
+			"' =>",
+			"			'",
+			"'",
+			"Achats::",
+			"Achats",
+			"span",
+			"query",
+			"i:s');",
+			"Event",
+			"->defaut(\"\")",
+			"false",
+			"Celui qui gagne le plus de points",
+			"true",
+			"description",
+			"],",
+			"=>",
+			"		',",
+			"33535d",
+			"45717e",
+			"c00"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"admins@bordeauxprivileges.com",
+			"semble que vous ayez déjà signé un contrat. ",
+			"Actualité",
+			"'thomas@bordeauxprivileges.com'",
+			"$request->$1",
+			"\"",
+			"'",
+			"Récupération de Livres",
+			"btn-xs",
+			"return $this->redirect($this->generateUrl('mode_maintenance'));",
+			"eturn $this->redirect($this->generateUrl('mode_maintenance'));",
+			"striped",
+			"OneToMany",
+			"glyphicon glyphicon-",
+			"Ligue\\OfficielsBundle\\Entity\\Qualification",
+			"Ligue\\CalendrierBundle\\Entity\\Epreuve",
+			".delete",
+			"CartesRougesBundle",
+			"Ligue",
+			"col-md-offset-$1",
+			"col-md-$1",
+			"www.peep-libourne.org",
+			"album_id",
+			"extract($_POST);",
+			"'",
+			"install.",
+			"_('install."
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 6,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 269,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								230,
+								230
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/Controller.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 62,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								50,
+								50
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "bootstrap/autoload.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 528,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								150,
+								150
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "App/Application.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1159,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1156,
+								1156
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 136.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "app/Input.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 241,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								173,
+								173
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "App/Request.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 858,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								826,
+								826
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "src/controllers/HomeController.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 136,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								127,
+								127
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "app/Exceptions/ControllerNotFoundException.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 293,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								286,
+								286
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "App/config.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 82,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								44,
+								44
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 28.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "projetWeb.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"index",
+				"index.php"
+			],
+			[
+				"routes",
+				"app/Http/routes.php"
+			],
+			[
+				"riderco",
+				"app/Http/Controllers/RidersController.php"
+			],
+			[
+				"addepreuesett",
+				"database/migrations/2014_11_24_152316_add_epreuve_to_settings.php"
+			],
+			[
+				"epreuvetoriders",
+				"database/migrations/2014_11_24_152127_add_epreuve_to_riders.php"
+			],
+			[
+				"ridertable",
+				"database/migrations/2014_10_17_181828_create_riders_table.php"
+			],
+			[
+				"base",
+				"resources/views/base.blade.php"
+			],
+			[
+				"userstable",
+				"database/migrations/2014_10_17_181428_create_users_table.php"
+			],
+			[
+				"ridercontroll",
+				"app/Http/Controllers/RidersController.php"
+			],
+			[
+				"style",
+				"public/css/style.css"
+			],
+			[
+				"ambindex",
+				"resources/views/ambassadeur/index.blade.php"
+			],
+			[
+				"ambcontr",
+				"app/Http/Controllers/AmbassadeursController.php"
+			],
+			[
+				"homecontr",
+				"app/Http/Controllers/HomeController.php"
+			],
+			[
+				"memcontr",
+				"app/Http/Controllers/MembreController.php"
+			],
+			[
+				"emailsrang",
+				"resources/views/emails/rangUpgrade.blade.php"
+			],
+			[
+				"equipier",
+				"resources/views/emails/equipierAmbassadeur.blade.php"
+			],
+			[
+				"contest",
+				"app/Contest.php"
+			],
+			[
+				"adminc",
+				"app/Http/Controllers/AdminController.php"
+			],
+			[
+				"adminevents",
+				"resources/views/admin/events.blade.php"
+			],
+			[
+				"admincontr",
+				"app/Http/Controllers/AdminController.php"
+			],
+			[
+				"newsindex",
+				"resources/views/admin/news/index.blade.php"
+			],
+			[
+				"news",
+				"app/News.php"
+			],
+			[
+				"commandes",
+				"resources/views/admin/users/commandes.blade.php"
+			],
+			[
+				"adminindex",
+				"resources/views/admin/index.blade.php"
+			],
+			[
+				"memidnex",
+				"resources/views/membre/index.blade.php"
+			],
+			[
+				"mem",
+				"app/Http/Controllers/MembreController.php"
+			],
+			[
+				"amb",
+				"app/Http/Controllers/AmbassadeursController.php"
+			],
+			[
+				"memindex",
+				"resources/views/membre/index.blade.php"
+			],
+			[
+				"user",
+				"app/User.php"
+			],
+			[
+				"virreq",
+				"app/Http/Requests/VirementRequest.php"
+			],
+			[
+				"virement",
+				"resources/views/ambassadeur/virement.blade.php"
+			],
+			[
+				"virere",
+				"app/Http/Requests/VirementRequest.php"
+			],
+			[
+				"vireemn",
+				"app/Virement.php"
+			],
+			[
+				"classifi",
+				"resources/views/admin/contests/classification.blade.php"
+			],
+			[
+				"contreq",
+				"app/Http/Requests/CreateContestRequest.php"
+			],
+			[
+				"contc",
+				"app/Http/Controllers/ContestsController.php"
+			],
+			[
+				"classifica",
+				"resources/views/admin/contests/classification.blade.php"
+			],
+			[
+				"classific",
+				"resources/views/admin/contests/classification.blade.php"
+			],
+			[
+				"contestclass",
+				"resources/views/admin/contests/classification.blade.php"
+			],
+			[
+				"conte",
+				"app/Contest.php"
+			],
+			[
+				"conts",
+				"vendor/phpunit/php-file-iterator/build/PHPCS/Sniffs/ControlStructures/ControlSignatureSniff.php"
+			],
+			[
+				"class",
+				"resources/views/admin/contests/classification.blade.php"
+			],
+			[
+				"classbla",
+				"resources/views/admin/contests/classification.blade.php"
+			],
+			[
+				"contcontr",
+				"app/Http/Controllers/ContestsController.php"
+			],
+			[
+				"admambindex",
+				"resources/views/admin/ambassadeurs/index.blade.php"
+			],
+			[
+				"contestindex",
+				"resources/views/admin/contests/index.blade.php"
+			],
+			[
+				"contform",
+				"resources/views/admin/contests/form.blade.php"
+			],
+			[
+				"conindex",
+				"resources/views/admin/contests/index.blade.php"
+			],
+			[
+				"contrat",
+				"resources/views/contrat.blade.php"
+			],
+			[
+				"con_for",
+				"resources/views/admin/contests/_form.blade.php"
+			],
+			[
+				"contcon",
+				"app/Http/Controllers/ContestsController.php"
+			],
+			[
+				"validation",
+				"resources/lang/fr/validation.php"
+			],
+			[
+				"contests_form",
+				"resources/views/admin/contests/_form.blade.php"
+			],
+			[
+				"contestform",
+				"resources/views/admin/contests/form.blade.php"
+			],
+			[
+				"contestsinde",
+				"resources/views/admin/contests/index.blade.php"
+			],
+			[
+				"stats",
+				"app/Stats.php"
+			],
+			[
+				"contestsindex",
+				"resources/views/admin/contests/index.blade.php"
+			],
+			[
+				"newsre",
+				"app/Http/Requests/CreateNewsRequest.php"
+			],
+			[
+				"contestsc",
+				"app/Http/Controllers/ContestsController.php"
+			],
+			[
+				"addcagn",
+				"database/migrations/2014_11_02_165410_add_cagnotte_to_virement.php"
+			],
+			[
+				"viremindex",
+				"resources/views/admin/virements/index.blade.php"
+			],
+			[
+				"vire",
+				"app/Virement.php"
+			],
+			[
+				"addcagnote",
+				"database/migrations/2014_11_02_165410_add_cagnotte_to_virement.php"
+			],
+			[
+				"contestscontr",
+				"app/Http/Controllers/ContestsController.php"
+			],
+			[
+				"userscontr",
+				"app/Http/Controllers/UsersController.php"
+			],
+			[
+				"usersindex",
+				"resources/views/admin/users/index.blade.php"
+			],
+			[
+				"newsco",
+				"app/Http/Controllers/NewsController.php"
+			],
+			[
+				"ordersu",
+				"resources/views/order_success.blade.php"
+			],
+			[
+				"orderpa",
+				"resources/views/order_pay.blade.php"
+			],
+			[
+				"adminde",
+				"resources/views/admin/index.blade.php"
+			],
+			[
+				"admc",
+				"app/Http/Controllers/AdminController.php"
+			],
+			[
+				"adm",
+				"app/Http/Controllers/AdminController.php"
+			],
+			[
+				"adminide",
+				"resources/views/admin/index.blade.php"
+			],
+			[
+				"sta",
+				"app/Stats.php"
+			],
+			[
+				"",
+				"resources/views/admin/index.blade.php"
+			],
+			[
+				"stat",
+				"app/Stats.php"
+			],
+			[
+				"home",
+				"app/Http/Controllers/HomeController.php"
+			],
+			[
+				"start",
+				"bootstrap/start.php"
+			],
+			[
+				"admind",
+				"resources/views/admin/index.blade.php"
+			],
+			[
+				"homeco",
+				"app/Http/Controllers/HomeController.php"
+			],
+			[
+				"admco",
+				"app/Http/Controllers/AdminController.php"
+			],
+			[
+				"achats",
+				"resources/views/membre/achats.blade.php"
+			],
+			[
+				"achat",
+				"app/Achat.php"
+			],
+			[
+				"ambc",
+				"app/Http/Controllers/AmbassadeursController.php"
+			],
+			[
+				"admindex",
+				"resources/views/admin/index.blade.php"
+			],
+			[
+				"homec",
+				"app/Http/Controllers/HomeController.php"
+			],
+			[
+				"admbase",
+				"resources/views/admin/base.blade.php"
+			],
+			[
+				"createevents",
+				"~/Sites/privilegescity/database/migrations/2014_10_30_122113_create_events_table.php"
+			],
+			[
+				"createcontests",
+				"~/Sites/privilegescity/database/migrations/2014_10_30_113549_create_contests_table.php"
+			],
+			[
+				"event",
+				"app/Event.php"
+			],
+			[
+				"eventtable",
+				"~/Sites/privilegescity/database/migrations/2014_10_30_122113_create_events_table.php"
+			],
+			[
+				"https",
+				"app/Http/Filters/HttpsFilter.php"
+			],
+			[
+				"order",
+				"resources/views/order.blade.php"
+			],
+			[
+				"createevent",
+				"database/migrations/2014_10_30_122113_create_events_table.php"
+			],
+			[
+				"createcont",
+				"database/migrations/2014_10_30_113549_create_contests_table.php"
+			],
+			[
+				"error",
+				"resources/views/error.blade.php"
+			],
+			[
+				"app",
+				"config/app.php"
+			],
+			[
+				"adminf",
+				"app/Http/Filters/AdminFilter.php"
+			],
+			[
+				"bootstr",
+				"public/assets/style/bootstrap.css"
+			],
+			[
+				"memcon",
+				"app/Http/Controllers/MembreController.php"
+			],
+			[
+				"orderdone",
+				"resources/views/emails/orderDone.blade.php"
+			],
+			[
+				"orderpay",
+				"resources/views/order_pay.blade.php"
+			],
+			[
+				"crenews",
+				"app/Http/Requests/CreateNewsRequest.php"
+			],
+			[
+				"updatenews",
+				"app/Http/Requests/UpdateNewsRequest.php"
+			],
+			[
+				"newsform",
+				"resources/views/admin/news/form.blade.php"
+			],
+			[
+				"espam",
+				"app/Http/Controllers/EspaceAmbassadeurController.php"
+			],
+			[
+				"membre",
+				"app/Http/Controllers/MembreController.php"
+			],
+			[
+				"avata",
+				"resources/views/membre/editAvatar.blade.php"
+			],
+			[
+				"refusform",
+				"resources/views/admin/ambassadeurs/refusForm.blade.php"
+			],
+			[
+				"refuscontr",
+				"app/Http/Requests/RefusContratRequest.php"
+			],
+			[
+				"refus",
+				"resources/views/emails/refusContrat.blade.php"
+			],
+			[
+				"mdpper",
+				"resources/views/mdpPerdu.blade.php"
+			],
+			[
+				"admbas",
+				"resources/views/admin/base.blade.php"
+			],
+			[
+				"ach",
+				"app/Achat.php"
+			],
+			[
+				"filter",
+				"app/Providers/FilterServiceProvider.php"
+			],
+			[
+				"appmin",
+				"public/assets/js/application/application.min.js"
+			],
+			[
+				"_form",
+				"resources/views/admin/news/_form.blade.php"
+			],
+			[
+				"login",
+				"resources/views/login.blade.php"
+			],
+			[
+				"createusertable",
+				"database/migrations/2014_09_18_225117_create_users_table.php"
+			],
+			[
+				"localapp",
+				"config/local/app.php"
+			],
+			[
+				"userct",
+				"app/Http/Controllers/UsersController.php"
+			],
+			[
+				"virre",
+				"app/Http/Requests/VirementRequest.php"
+			],
+			[
+				"vireblade",
+				"resources/views/ambassadeur/virement.blade.php"
+			],
+			[
+				"virementblade",
+				"resources/views/ambassadeur/virement.blade.php"
+			],
+			[
+				"esp",
+				"app/Http/Controllers/EspaceAmbassadeurController.php"
+			],
+			[
+				"maint",
+				"app/Http/Filters/MaintenanceFilter.php"
+			],
+			[
+				"errorte",
+				"resources/views/emails/errorTech.blade.php"
+			],
+			[
+				"espamb",
+				"app/Http/Controllers/EspaceAmbassadeurController.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/C/wamp/www/PCS/PCS.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": false,
+	"side_bar_visible": true,
+	"side_bar_width": 234.0,
+	"status_bar_visible": false,
+	"template_settings":
+	{
+	}
+}
