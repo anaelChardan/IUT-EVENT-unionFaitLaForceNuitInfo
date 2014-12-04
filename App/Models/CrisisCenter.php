@@ -15,5 +15,5 @@ namespace App\Models;
 use App\Framework\Model;
 
 class CrisisCenter extends Model {
-
+	protected $table = "brigademt_crisis_centers";
 } 

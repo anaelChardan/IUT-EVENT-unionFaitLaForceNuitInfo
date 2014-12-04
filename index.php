@@ -10,5 +10,4 @@ require "bootstrap/setup.php";
 use App\Framework\Application;
 
 $app = new Application();
-var_dump($app->getUri());
 $app->render();

@@ -7,9 +7,9 @@ use App\Framework\Controller;
 class HomeController extends Controller {
 	public function getIndex() {
 		//var_dump($res);
-		$user = $this->repo('User')->find(1);
-		$title = $user->profile()->title;
-		return $this->naturalView(["text"=>"Utilisateurs", "user"=>$user, "title"=>$title]);
+		$centers = $this->repo('CrisisCenter')->all();
+		
+		return $this->naturalView(["centers"=>$centers]);
 	}
 
 	public function getForm() {
