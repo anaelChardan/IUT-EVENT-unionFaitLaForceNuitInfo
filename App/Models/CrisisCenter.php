@@ -16,7 +16,8 @@ use App\Framework\Model;
 
 class CrisisCenter extends Model {
 	protected $table = "brigademt_crisis_centers";
-}     public function getName(){
+
+    public function getName(){
         return $this->get('name');
     }
 }
