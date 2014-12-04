@@ -8,5 +8,6 @@ return [
 			'username' =>	'ETD',
 			'password' =>	'ETD',
 			'dbname' =>		'Classique',
+			'prefix' =>		'brigademt_',
 		]
 ];
