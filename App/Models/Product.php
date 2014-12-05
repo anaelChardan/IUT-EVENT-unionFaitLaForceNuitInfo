@@ -63,29 +63,43 @@ class Product extends Model {
         return $max;
     }
 
-    public function getPercentUp() {
+    public function getPercentUp()
+    {
         $numberOfUp = $this->getThumbsUp();
-        $total = $numberOfUp + $this->getThumbsDown();
-        $percentUp = $numberOfUp * 100 / $total;
-        return $percentUp;
+        $total      = $numberOfUp + $this->getThumbsDown();
+        $percentUp  = $numberOfUp * 100 / $total;
 
+        return $percentUp;
     }
 
-    public function getPercentDown() {
+    public function thumbsUpIncremente() {
+        $this->thumbs_up++;
+    }
+
+    public function thumbsDownIncremente() {
+        $this->thumbs_down++;
+    }
+
+    public function getPercentDown()
+    {
         $numberOfDown = $this->getThumbsDown();
-        $total = $numberOfDown + $this->getThumbsup();
-        $percentDown = $numberOfDown * 100 / $total;
+        $total        = $numberOfDown + $this->getThumbsup();
+        $percentDown  = $numberOfDown * 100 / $total;
+
         return $percentDown;
     }
 
-    public static function getTheLessDown() {
-        $repo = new Repository('Product');
+    public static function getTheLessDown()
+    {
+        $repo     = new Repository( 'Product' );
         $products = $repo->all();
-        $max = Product::getTheMostDown();
-        foreach( $products as $p) {
-            if ( $p->getThumbsDown() < $max->getThumbsDown() )
+        $max      = Product::getTheMostDown();
+        foreach ($products as $p) {
+            if ($p->getThumbsDown() < $max->getThumbsDown()) {
                 $max = $p;
+            }
         }
+
         return $max;
     }
 
