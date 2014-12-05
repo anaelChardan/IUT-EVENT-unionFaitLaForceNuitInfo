@@ -13,6 +13,7 @@
 namespace App\Models;
 
 use App\Framework\Model;
+use App\Framework\Repository;
 
 class Product extends Model {
 
@@ -38,5 +39,64 @@ class Product extends Model {
 
     public function getRequests(){
         return $this->manyToMany('Request','brigademt_Product_Request','product_id');
+    }
+
+    public static function getTheMostUp() {
+        $repo = new Repository('Product');
+        $products = $repo->all();
+        $max = new Product();
+        foreach( $products as $p) {
+            if ( $p->getThumbsUp() > $max->getThumbsUp() )
+                $max = $p;
+        }
+        return $max;
+    }
+
+    public static function getTheLessUp() {
+        $repo = new Repository('Product');
+        $products = $repo->all();
+        $max = Product::getTheMostUp();
+        foreach( $products as $p) {
+            if ( $p->getThumbsUp() < $max->getThumbsUp() )
+                $max = $p;
+        }
+        return $max;
+    }
+
+    public function getPercentUp() {
+        $numberOfUp = $this->getThumbsUp();
+        $total = $numberOfUp + $this->getThumbsDown();
+        $percentUp = $numberOfUp * 100 / $total;
+        return $percentUp;
+
+    }
+
+    public function getPercentDown() {
+        $numberOfDown = $this->getThumbsDown();
+        $total = $numberOfDown + $this->getThumbsup();
+        $percentDown = $numberOfDown * 100 / $total;
+        return $percentDown;
+    }
+
+    public static function getTheLessDown() {
+        $repo = new Repository('Product');
+        $products = $repo->all();
+        $max = Product::getTheMostDown();
+        foreach( $products as $p) {
+            if ( $p->getThumbsDown() < $max->getThumbsDown() )
+                $max = $p;
+        }
+        return $max;
+    }
+
+    public static function getTheMostDown() {
+        $repo = new Repository('Product');
+        $products = $repo->all();
+        $min = new Product();
+        foreach( $products as $p) {
+            if ( $p->getThumbsDown() > $min->getThumbsDown() )
+                $min = $p;
+        }
+        return $min;
     }
 } 
