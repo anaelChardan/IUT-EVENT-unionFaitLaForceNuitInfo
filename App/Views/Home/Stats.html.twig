@@ -1,0 +1,15 @@
+{% extends "base.html.twig" %}
+
+{% block content %}
+
+    <h1>Ceci est la page de Stats</h1>
+    The most up :
+<a href="{{ path('Home', 'product', {id:  mostup.id}) }}">{{ mostup.name }}</a> <br>
+    The most down :
+    <a href="{{ path('Home', 'product', {id:  mostdown.id}) }}">{{ mostdown.name }}</a> <br>
+    The less up :
+    {{ lessup.name }}<br>
+    The less down :
+    {{ lessdown.name }} <br>
+
+{% endblock %}
