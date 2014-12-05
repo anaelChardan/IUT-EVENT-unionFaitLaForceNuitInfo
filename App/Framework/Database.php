@@ -64,6 +64,10 @@ class Database {
 		return intval($this->first($query, $params)["COUNT(*)"]);
 	}
 
+	public function lastInsertId() {
+		return $this->pdo->lastInsertId();
+	}
+
 	public function getTrace() {
 		return $this->trace;
 	}

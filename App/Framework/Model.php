@@ -37,7 +37,10 @@ class Model {
 	}
 
 	public function id() {
-		return $this->attributes[$this->idField];
+		if (array_key_exists($this->idField, $this->attributes))
+			return $this->attributes[$this->idField];
+		else
+			return NULL;
 	}
 
 	public function getIdField() {
@@ -89,7 +92,10 @@ class Model {
 	public function save() {
 		
 		//return $query;
-		return $this->db->success($this->saveQuery(), $this->attributes);
+		$res = $this->db->success($this->saveQuery(), $this->attributes);
+		if ($res)
+			$this->attributes[$this->getIdField()] = $this->db->lastInsertId();
+		return $res;
 	}
 
 	public function deleteQuery() {
@@ -165,4 +171,6 @@ class Model {
 		//var_dump($entities);
 		return $entities; 
 	}
+
+
 }
