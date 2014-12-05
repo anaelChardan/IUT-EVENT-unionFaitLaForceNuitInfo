@@ -1,9 +1,27 @@
 {% extends "base.html.twig" %}
 
 {% block content %}
-	{% for center in centers %}
-		{{ center.name }}
-	{% endfor %}
+	<div class="row">
+		<div class="col-md-12">
+			<div class="jumbotron">
+					<h1>UnionsForces</h1>
+					UnionsForces est une <b>plateforme collaborative</b> qui permet aux centres de crises partout dans le monde de pouvoir commander du matériel médical.
+			</div>
+		</div>
+	</div>
 
-    <a href="{{ path('Home', 'product', {id: 1}) }}">test</a>
+	<div class="row">
+		<div class="col-md-6">
+			<a class="btn btn-success btn-block" href="{{ path('Request', 'index') }}">
+				<h2 style="margin:0">Faire une demande</h2>
+				Remplissez un formulaire et choisissez le matériel<br/>médical que vous souhaitez
+			</a>
+		</div>
+
+		<div class="col-md-6">
+			<a class="btn btn-block btn-warning" href="{{ path('Product', 'index') }}">
+				<h2 style="margin:0">Produits</h2>
+				Consultez les produits que nous avons à la centrale, et<br/>votez pour le matériel le plus efficace
+			</a>
+		</div>
 {% endblock %}

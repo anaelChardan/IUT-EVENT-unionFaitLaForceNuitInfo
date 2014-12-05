@@ -45,4 +45,15 @@ class RequestController extends Controller{
 
     }
 
+    public function getDelete() {
+        $pid =  $this->needs('product');
+        $rid =  $this->needs('id');
+
+        $query = "DELETE FROM brigademt_Product_Request WHERE product_id=:pid and request_id=:rid";
+        if (!$this->app->db->success($query,['pid'=>$pid,'rid'=>$rid]))
+            $this->app->raise(500, "Ok, je peux pas supprimer. Demande à PHILAE");
+
+        return $this->redirect('Request','request',['id'=>$rid]);
+    }
+
 }

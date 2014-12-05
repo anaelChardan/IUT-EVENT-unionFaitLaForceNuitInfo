@@ -102,6 +102,9 @@ class QueryBuilder {
 		if ($this->modelName == '')
 			return $res;
 
+		if ($res === NULL)
+			return NULL;
+
 		$obj = new $this->modelName();
 		$obj->hydrate($res);
 		return $obj;

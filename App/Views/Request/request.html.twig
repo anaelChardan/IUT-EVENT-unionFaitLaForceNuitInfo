@@ -64,7 +64,11 @@
                       {% for product in request.products %}
                             <tr>
                                 <td>{{ product.name }}</td>
-                                <td><button class="btn btn-warning"></button></td>
+                                <td>
+                                    <a href="{{ path('Request', 'delete', {id: request.id, product: product.id}) }}" class="btn btn-danger btn-block btn-sm">
+                                        Supprimer
+                                    </a>
+                                </td>
                             </tr>
                           {% else %}
                             <tr>

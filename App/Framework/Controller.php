@@ -40,17 +40,23 @@ class Controller {
 
 		if (!Input::has($param))
 			$fallback();
+
+		return Input::get($param);
 	}
 
 	public function needsOrDefault($param, $default) {
 		if (!Input::has($param))
 			Input::push($param, $default);
+		return Input::get($param);
 	}
 
 	public function needsEntity($model, $param) {
 		$this->needs($param);
 		$id = $this->request->$param;
-		return $this->repo($model)->find($id);
+		$entity = $this->repo($model)->find($id);
+		if ($entity === NULL)
+			$this->app->raise(404, 'The requested '.$model." doesn't exists");
+		return $entity;
 	}
 
 	public function redirect($controller, $action, $params = []) {

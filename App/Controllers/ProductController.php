@@ -31,4 +31,53 @@ class ProductController extends Controller {
         $product = $this->needsEntity('Product','id');
         return $this->naturalView(["product"=>$product]);
     }
+
+    public function postThumbUp() {
+        $product = $this->needsEntity('Product','id');
+        $product->thumbsUpIncremente();
+        $product->save();
+        return $this->redirect('Product', 'product', ['id'=>$product->id()]);
+    }
+
+    public function postThumbDown() {
+        $product = $this->needsEntity('Product','id');
+        $product->thumbsDownIncremente();
+        $product->save();
+        return $this->redirect('Product', 'product', ['id'=>$product->id()]);
+    }
+
+    public function getNew() {
+        return $this->naturalView();
+    }
+
+    public function postNew() {
+        $product = new Product();
+
+        $product->name = $this->request->name;
+        $product->quantity = $this->request->quantity;
+        $product->price = $this->request->price;
+        $product->thumbs_up = 0;
+        $product->thumbs_down = 0;
+
+        $product->save();
+
+        return $this->redirect('Product', 'product', ['id'=>$product->id()]);
+    }
+
+    public function getEdit() {
+        $product = $this->needsEntity('Product', 'id');
+        return $this->naturalView(['product'=>$product]);
+    }
+
+    public function postEdit() {
+        $product = $this->needsEntity('Product', 'id');
+
+        $product->name = $this->request->name;
+        $product->quantity = $this->request->quantity;
+        $product->price = $this->request->price;
+
+        $product->save();
+
+        return $this->redirect('Product', 'product', ['id'=>$product->id()]);
+    }
 } 

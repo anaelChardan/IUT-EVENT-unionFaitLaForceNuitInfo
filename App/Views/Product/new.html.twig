@@ -1,0 +1,75 @@
+{% extends "base.html.twig" %}
+
+{% block content %}
+    <form action="{{ path('Product', 'new') }}" method="post">
+    <div class="well">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="text-center">Ajouter un produit</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <hr>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <label for="">Nom produit : </label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <input type="text" class="form-control" name="name" id="" placeholder="Aspirine...">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <hr>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <label for="">Prix : </label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <input type="number" value="0" class="form-control" name="price" id="price" min="0">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <hr>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <label for="">Quantité : </label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <input type="number" value="0" class="form-control" name="quantity" id="quantity" min="0">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <hr>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-offset-5 ol-md-4">
+                            <button class="btn btn-success" type="submit">Enregistrer</button>
+                        </div>
+                    </div>
+                    </div>
+        </div>
+
+    </div>
+    </form>
+{% endblock %}
+

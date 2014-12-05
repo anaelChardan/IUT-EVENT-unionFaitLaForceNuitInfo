@@ -7,7 +7,7 @@ class Model {
 	protected $table = NULL;
 	public $idField = 'id';
 
-	private $isNew = true;
+	public $isNew = true;
 
 	public $attributes = [];
 	protected $exclude = [];
@@ -27,13 +27,13 @@ class Model {
 	}
 
 	public function hydrate($data) {
+		$this->isNew = false;
 		$this->attributes = [];
 		foreach ($data as $key=>$val) {
 			if (in_array($key, $this->exclude))
 				continue;
-			$this->attributes[utf8_encode($key)] = utf8_encode($val);
+			$this->attributes[($key)] = ($val);
 		}
-		$this->isNew = false;
 	}
 
 	public function id() {
@@ -80,8 +80,8 @@ class Model {
 			$query = "UPDATE ".$this->table." SET";
 			$i = 0;
 			foreach ($this->attributes as $attr => $val) {
-				if ($attr == $this->idField)
-					continue;
+//				if ($attr == $this->idField)
+//					continue;
 				$query .= ($i > 0 ? ',': '').' '.$attr." = :".$attr;
 				$i++;
 			}
@@ -93,8 +93,10 @@ class Model {
 		
 		//return $query;
 		$res = $this->db->success($this->saveQuery(), $this->attributes);
-		if ($res)
+		if ($res && $this->isNew) {
+			$this->isNew = false;
 			$this->attributes[$this->getIdField()] = $this->db->lastInsertId();
+		}
 		return $res;
 	}
 
@@ -162,7 +164,7 @@ class Model {
 				foreach ($entities as $entity) {
 					if ($entity->id() == $otherId) {
 						foreach ($item as $key => $val) {
-							$entity->attributes['__rel'][utf8_encode($key)] = utf8_encode($val);
+							$entity->attributes['__rel'][($key)] = ($val);
 						}
 					}
 				}

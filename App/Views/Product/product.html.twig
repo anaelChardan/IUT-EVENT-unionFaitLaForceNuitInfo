@@ -4,8 +4,9 @@
 <div class="container">
     <div class="well">
         <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-12 text-center">
                 <h1 class="text-center">{{ product.name }} </h1>
+                <a href="{{ path('Product', 'edit', {id: product.id}) }}" class="btn btn-success btn-sm">Modifier</a>
             </div>
         </div>
         <div class="row">
@@ -27,20 +28,21 @@
             <div class="col-md-12">
                 <div class="progress">
                     <div class="progress-bar progress-bar-success progress-bar-striped" style="width: {{ product.percentup }}%">
-                        <p>{{ product.percentup }}</p>
                     </div>
                     <div class="progress-bar progress-bar-danger progress-bar-striped" style="width: {{ product.percentdown }}%">
-                        <p>{{ product.percentdown }}</p>
                     </div>
                 </div>
             </div>
         </div>
         <div class="row">
             <div class="col-md-offset-2 col-md-4">
-                <a href="#" class="btn btn-success">{{ product.thumbsup }}  <span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span></a>
-            </div>
+                <form action="{{ path('Product', 'thumbUp', {id: product.id}) }}" method="post">
+                    <button class="btn btn-success">{{ product.thumbsup }}  <span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span></button>
+                </form>
+               </div>
             <div class="col-md-offset-2 col-md-4">
-                <a href="#" class="btn btn-danger">{{ product.thumbsdown }}  <span class="glyphicon glyphicon-thumbs-down" aria-hidden="true"></span></a>
+                <form action="{{ path('Product', 'thumbDown', {id: product.id}) }}" method="post">
+                    <button class="btn btn-danger">{{ product.thumbsdown }}  <span class="glyphicon glyphicon-thumbs-down" aria-hidden="true"></span></button>
             </div>
         </div>
     </div>

@@ -3,11 +3,11 @@
 return [
 	'debug' =>		false,
 	'database' => [
-			'driver' =>		'sqlsrv',
-			'host' =>		'info-simplet',
-			'username' =>	'ETD',
-			'password' =>	'ETD',
-			'dbname' =>		'Classique',
+			'driver' =>		'mysql',
+			'host' =>		'mysql51-44.pro',
+			'username' =>	'projetsbxnuit',
+			'password' =>	'greenShrimp',
+			'dbname' =>		'projetsbxnuit',
 			'prefix' =>		'brigademt_',
 		]
 ];
