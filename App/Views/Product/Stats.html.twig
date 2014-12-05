@@ -1,15 +1,23 @@
 {% extends "base.html.twig" %}
-
 {% block content %}
-
-    <h1>Ceci est la page de Stats</h1>
-    The most up :
-<a href="{{ path('Home', 'product', {id:  mostup.id}) }}">{{ mostup.name }}</a> <br>
-    The most down :
-    <a href="{{ path('Home', 'product', {id:  mostdown.id}) }}">{{ mostdown.name }}</a> <br>
-    The less up :
-    {{ lessup.name }}<br>
-    The less down :
-    {{ lessdown.name }} <br>
-
+    <!-- CONTAINER START-->
+    <div class="container">
+        <div class="well">
+            <div class="row">
+                <h1>Statistiques</h1>
+                <br>
+                <p>
+                    <h4 class="text-info">The most up :</h4>
+                    <a href="{{ path('Product', 'product', {id:  mostup.id}) }}">{{ mostup.name }}</a> <br>
+                    <h4 class="text-info">The most down :</h4>
+                    <a href="{{ path('Product', 'product', {id:  mostdown.id}) }}">{{ mostdown.name }}</a> <br>
+                    <h4 class="text-info">The less up :</h4>
+                    <a href="{{ path('Product', 'product', {id:  lessup.id}) }}">{{ lessup.name }}</a> <br>
+                    <h4 class="text-info">The less down :</h4>
+                    <a href="{{ path('Product', 'product', {id:  lessdown.id}) }}">{{ lessdown.name }}</a> <br>
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- CONTAINER END -->
 {% endblock %}

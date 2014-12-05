@@ -42,7 +42,12 @@ class RequestController extends Controller{
         $query = "INSERT INTO brigademt_Product_Request (product_id,request_id) VALUES(:pid,:rid)";
         $this->app->db->success($query,['pid'=>$this->request->product_id,'rid'=>$this->request->id]);
         return $this->redirect('Request','request',['id'=>$this->request->id]);
+    }
 
+    public function getDelete(){
+        $query = "DELETE FROM brigademt_Product_Request WHERE product_id=:id";
+        $this->app->db->success($query,['id'=>$this->product_id]);
+        return $this->redirect('Request','request',['id'=>$this->request->id]);
     }
 
     public function getDelete() {
