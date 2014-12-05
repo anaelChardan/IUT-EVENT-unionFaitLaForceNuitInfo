@@ -52,4 +52,12 @@ class Controller {
 		$id = $this->request->$param;
 		return $this->repo($model)->find($id);
 	}
+
+	public function redirect($controller, $action, $params = []) {
+		$path = "?".CONTROLLER_ACCESSOR.'='.$controller.'&'.ACTION_ACCESSOR.'='.$action;
+		foreach ($params as $key => $val)
+			$path .= '&'.$key.'='.$val;
+		header('Location: '.$path);
+		return "";
+	}
 }
