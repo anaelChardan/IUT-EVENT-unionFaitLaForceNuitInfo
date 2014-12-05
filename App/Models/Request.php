@@ -16,10 +16,6 @@ use App\Framework\Model;
 
 class Request extends Model {
 
-    public function __construct() {
-
-    }
-
     public function getCreationDate() {
         return $this->get('creation_date');
     }
@@ -34,4 +30,9 @@ class Request extends Model {
     public function getCenter() {
         return $this->manyToOne("CrisisCenter","crisis_center_id");
     }
+
+    public function getPriority() {
+        return $this->priority;
+    }
+
 } 

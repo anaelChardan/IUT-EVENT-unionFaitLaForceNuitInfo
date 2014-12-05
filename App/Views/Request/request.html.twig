@@ -1,0 +1,109 @@
+{% extends "base.html.twig" %}
+
+{% block content %}
+    <!-- CONTAINER START-->
+    <div class="container">
+        <div class="well reminder">
+            <div class="headerReminder">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3 class="text-center">Vos informations</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <hr>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <p><strong>Vous êtes du centre : </strong>{{ request.center.name }}</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <p><strong>Vous avez sélectionné la priorité : </strong>
+    {%  if request.priority == 1  %}
+        faible
+    {%  elseif request.priority == 2  %}
+        moyenne
+    {%  elseif request.priority == 3  %}
+        élevée
+    {% endif %}
+        </p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <p><strong>Vous souhaitez vous faire livrer le : </strong>{{ request.receptionDate  }}</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+
+            <div class="col-md-12">
+                <div class="well products">
+                    <table class="table">
+                        <thead>
+                        <tr>
+                            <th class="text-center">
+                                <p>Nom du médicament</p>
+                            </th>
+                            <th class="text-center">
+                                <p>Action</p>
+                            </th>
+                        </tr>
+                        </thead>
+
+                        <tbody>
+                      {% for product in request.products %}
+                            <tr>
+                                <td>{{ product.name }}</td>
+                                <td><button class="btn btn-warning"></button></td>
+                            </tr>
+                          {% else %}
+                            <tr>
+                                <td colspan="2">Aucun produit</td>
+                            </tr>
+                      {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <p><strong>Veuillez sélectionner un article dans la liste : </strong></p>
+            </div>
+        </div>
+        <form action="{{ path('Request','request', {id: request.id }) }}" method="POST">
+          <div class="row">
+            <div class="col-md-12">
+                <select name="product_id" class="form-control">
+                    {% for product in products %}
+                        <option value="{{ product.id }}">{{ product.name }}</option>
+                     {% endfor %}
+                </select>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <hr>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-offset-5 col-md-4">
+                <button type="submit" class="btn btn-success">Ajouter</button>
+            </div>
+        </div>
+        </form>
+    </div>
+{% endblock %}

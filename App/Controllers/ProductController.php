@@ -12,8 +12,7 @@ use App\Framework\Controller;
 use App\Models\Product;
 
 class ProductController extends Controller {
-
-    public function getProducts(){
+    public function getIndex(){
         $products= $this->repo('Product')->all();
 
         return $this->naturalView(["products" =>$products]);
