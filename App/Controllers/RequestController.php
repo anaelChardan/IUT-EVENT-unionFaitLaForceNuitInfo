@@ -44,11 +44,6 @@ class RequestController extends Controller{
         return $this->redirect('Request','request',['id'=>$this->request->id]);
     }
 
-    public function getDelete(){
-        $query = "DELETE FROM brigademt_Product_Request WHERE product_id=:id";
-        $this->app->db->success($query,['id'=>$this->product_id]);
-        return $this->redirect('Request','request',['id'=>$this->request->id]);
-    }
 
     public function getDelete() {
         $pid =  $this->needs('product');
