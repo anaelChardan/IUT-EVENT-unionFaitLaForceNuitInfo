@@ -1,0 +1,49 @@
+{% extends "base.html.twig" %}
+{% block content %}
+<!-- CONTAINER START-->
+<div class="container">
+    <div class="well">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="text-center">{{ product.name }} </h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <hr>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <p class="text-center"> {{ product.price }} <span class="glyphicon glyphicon-euro" aria-hidden="true"></span></p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <hr>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="progress">
+                    <div class="progress-bar progress-bar-success progress-bar-striped" style="width: {{ product.percentup }}%">
+                        <p>{{ product.percentup }}</p>
+                    </div>
+                    <div class="progress-bar progress-bar-danger progress-bar-striped" style="width: {{ product.percentdown }}%">
+                        <p>{{ product.percentdown }}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-offset-2 col-md-4">
+                <a href="#" class="btn btn-success">{{ product.thumbsup }}  <span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span></a>
+            </div>
+            <div class="col-md-offset-2 col-md-4">
+                <a href="#" class="btn btn-danger">{{ product.thumbsdown }}  <span class="glyphicon glyphicon-thumbs-down" aria-hidden="true"></span></a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- CONTAINER END -->
+{% endblock %}
